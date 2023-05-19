@@ -17,7 +17,7 @@ const ReviewForm = ({ review, formType, onSubmit, closeForm }) => {
   };
 
   const onChange = (number) => {
-    setRating(number);
+    setRating(number); // hello
   };
 
   return (
